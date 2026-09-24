@@ -2,7 +2,7 @@
 
 API testing of product kits, orders, and delivery calculation.
 
-**Workbook:** [yandex-prilavok-api-testing.xlsx](./yandes-prilavok-api-testing.xlsx)
+**Workbook:** [yandex-prilavok-api-testing.xlsx](./yandex-prilavok-api-testing.xlsx)
 
 ## Contents
 
