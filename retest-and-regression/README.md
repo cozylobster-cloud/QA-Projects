@@ -1,46 +1,26 @@
-# Mesto — Bug Reports
+# Mesto — Bug Reports and Retesting
 
-Bug reports for the Mesto web application, covering profile editing, field validation, and place cards.
+Bug reporting and retesting for the Mesto web application. The work covers profile editing, field validation, place cards, and verification of reported fixes.
 
-**Workbook:** [bug-reports.xlsx](./bug-reports.xlsx)
+## Project Files
 
-## Contents
-
-- `Баг-репорты` — primary bug reports.
-- `Дополнительные баг-репорты` — additional issues involving place cards.
+- [bug-reports.xlsx](./bug-reports.xlsx) — bug reports with reproduction steps, expected and actual results, severity, and environment details.
+- [bug-retest.xlsx](./bug-retest.xlsx) — retest results, defect statuses, and comments.
 
 ## Test Analysis Techniques
 
-- Requirements were identified through the expected results recorded in bug reports.
-- Profile fields and place card functionality were analyzed as separate areas.
+- Analyzed expected results in bug reports to identify requirements for profile fields and place cards.
+- Reviewed each defect and its reproduction steps to determine how to verify the fix.
+- Identified cases where retesting was blocked by another issue.
 
-## Tools and Environment
+## Test Design and Execution
 
-- Yandex Browser on macOS.
-- XLSX workbook for defect documentation.
-
-# Mesto — Bug Retesting
-
-Retesting previously reported defects in the Mesto web application.
-
-**Workbook:** [bug-retest.xlsx](./bug-retest.xlsx)
-
-## Contents
-
-- `Ретест багов Место` — reproduction steps, expected and actual results, statuses, and retest comments.
-
-## Test Analysis Techniques
-
-- Expected results from the original bug reports were used as acceptance criteria for retesting.
-- Each defect was reviewed separately to determine whether it could be retested.
-
-## Test Design Techniques
-
-- Defect retesting: repeating the documented steps and comparing the new result with the expected result.
-- Recording defects as closed, reopened, or blocked.
+- Checked individual cases involving empty inputs, field length, and interactions with profiles and place cards.
+- Retested defects by repeating the documented steps and comparing the new result with the expected result.
+- Recorded whether a defect was closed, reopened, or blocked.
 
 ## Tools and Environment
 
 - Yandex Browser on macOS.
 - Mesto test environment.
-- XLSX workbook for retest results.
+- XLSX workbooks for bug reporting and retest results.
